@@ -9,4 +9,5 @@ from .models import Destination
 def index(request):
     dest1=Destination()
     dest1.name="Hyderabad"
+    dest1.desc="most beautiful city"
     return render(request, "index.html",{'dest1': dest1})
