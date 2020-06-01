@@ -7,7 +7,5 @@ class Destination(models.Model):
    img:str
    desc:str
    price:str
-class Achievements(models.Model):
-    name:str
-    desc:str   
+  
     

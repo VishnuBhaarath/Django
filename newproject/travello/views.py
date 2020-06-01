@@ -34,7 +34,7 @@ def index(request):
 
     dest5=Destination()
     dest5.name="Saran"
-    dest2.desc="Treasurer"
+    dest5.desc="Treasurer"
     dest5.img="destination_2.jpg"
     dest5.price=600
 
@@ -56,11 +56,6 @@ def index(request):
     dest8.img="destination_2.jpg"
     dest8.price=600
 
-    dest9=Destination()
-    dest9.name="Saran"
-    dest9.desc="Treasurer"
-    dest9.img="vishnu.jpg"
-    dest9.price=600
 
     dest10=Destination()
     dest10.name="Saran"
@@ -98,10 +93,7 @@ def index(request):
     dest15.img="destination_2.jpg"
     dest15.price=600
     
-    dests=[dest1,dest2,dest3,dest4,dest5,dest6,dest7,dest8,dest9,dest10,dest11,dest12,dest13,dest14,dest15]
-    ache1=Achievements()
-    ache1.name="Pragyan"
-    ache1.desc="won the gold in sangam"
-    aches=[ache1]
+    dests=[dest1,dest2,dest3,dest4,dest5,dest6,dest7,dest8,dest10,dest11,dest12,dest13,dest14,dest15]
+    
 
-    return render(request, "index.html",{'dests': dests,'aches':aches})
+    return render(request, "index.html",{'dests': dests})
