@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request, 'home.html')
+     return HttpResponse("Hello, world. You're at the polls index.")
 # Create your views here.
