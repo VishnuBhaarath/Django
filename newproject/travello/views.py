@@ -9,26 +9,26 @@ from .models import Destination
 def index(request):
    
     dest1=Destination()
-    dest1.name="Abc"
+    dest1.name="Aakash Raja"
     dest1.desc="President"
-    dest1.img="destination_1.jpg"
+    dest1.img="man.png"
     dest1.price=700
 
     dest2=Destination()
-    dest2.name="n"
+    dest2.name="Saran"
     dest2.desc="Treasurer"
-    dest2.img="destination_2.jpg"
+    dest2.img="man.png"
     dest2.price=600
 
     dest3=Destination()
-    dest3.name="Sn"
-    dest3.desc="Treasurer"
-    dest3.img="destination_2.jpg"
+    dest3.name="Kumaresh"
+    dest3.desc="Vice president"
+    dest3.img="man.png"
     dest3.price=600
 
     dest4=Destination()
-    dest4.name="Sn"
-    dest4.desc="Treasurer"
+    dest4.name="GDK"
+    dest4.desc="Vice president"
     dest4.img="destination_2.jpg"
     dest4.price=600
 
