@@ -114,7 +114,7 @@
 
 					<!-- Slide -->
 					<div class="owl-item">
-						<div class="background_image"><img src="{%static 'images/bhive.jfif' %}" alt=""></div>
+						<div class="background_image"><img src="{%static 'images/projects2.jpg' %}" alt=""></div>
 					</div>
 					<div class="home_slider_content_container">
 						<div class="container">
@@ -213,17 +213,17 @@
 			<div class="row destinations_row">
 				<div class="col">
 					<div class="destinations_container item_grid">
-						{% for dest in dests %}
+						{% for pro in pros %}
 						<!-- Destination -->
 						<div class="destination item">
 							<div class="destination_image">
-								<img src="{{baseUrl}}/{{dest.img}}" alt="">
+								<img src="{{baseUrl}}/{{pro.img}}" alt="">
 								
 							</div>
 							<div class="destination_content">
-								<div class="destination_title"><a href="destinations.html">{{dest.name}}</a></div>
+								<div class="destination_title"><a href="destinations.html">{{pro.name}}</a></div>
 								<div class="destination_subtitle">
-									<p>{{dest.desc}}</p>
+									<p>{{pro.desc}}</p>
 								</div>
 							
 							</div>
