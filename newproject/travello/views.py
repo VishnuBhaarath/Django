@@ -97,3 +97,5 @@ def index(request):
     
 
     return render(request, "index.html",{'dests': dests})
+def project(request):
+    return render(request,"projects.html")
